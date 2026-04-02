@@ -2878,6 +2878,54 @@ MODELS_MASTER = {
             ],
         },
         {
+            "path": "t5gemma2/",
+            "title": "T5Gemma2",
+            "toc": True,
+            "children": [
+                {
+                    "path": "t5gemma2_tokenizer",
+                    "title": "T5Gemma2Tokenizer",
+                    "generate": [
+                        "keras_hub.tokenizers.T5Gemma2Tokenizer",
+                        "keras_hub.tokenizers.T5Gemma2Tokenizer.from_preset",
+                        "keras_hub.models.T5Gemma2Tokenizer",
+                        "keras_hub.models.T5Gemma2Tokenizer.from_preset",
+                    ],
+                },
+                {
+                    "path": "t5gemma2_backbone",
+                    "title": "T5Gemma2Backbone model",
+                    "generate": [
+                        "keras_hub.models.T5Gemma2Backbone",
+                        "keras_hub.models.T5Gemma2Backbone.from_preset",
+                        "keras_hub.models.T5Gemma2Backbone.token_embedding",
+                    ],
+                },
+                {
+                    "path": "t5gemma2_seq_2_seq_lm",
+                    "title": "T5Gemma2Seq2SeqLM model",
+                    "generate": [
+                        "keras_hub.models.T5Gemma2Seq2SeqLM",
+                        "keras_hub.models.T5Gemma2Seq2SeqLM.from_preset",
+                        "keras_hub.models.T5Gemma2Seq2SeqLM.generate",
+                        "keras_hub.models.T5Gemma2Seq2SeqLM.backbone",
+                        "keras_hub.models.T5Gemma2Seq2SeqLM.preprocessor",
+                    ],
+                },
+                {
+                    "path": "t5gemma2_seq_2_seq_lm_preprocessor",
+                    "title": "T5Gemma2Seq2SeqLMPreprocessor layer",
+                    "generate": [
+                        "keras_hub.models.T5Gemma2Seq2SeqLMPreprocessor",
+                        "keras_hub.models.T5Gemma2Seq2SeqLMPreprocessor.from_preset",
+                        "keras_hub.models.T5Gemma2Seq2SeqLMPreprocessor.generate_preprocess",
+                        "keras_hub.models.T5Gemma2Seq2SeqLMPreprocessor.generate_postprocess",
+                        "keras_hub.models.T5Gemma2Seq2SeqLMPreprocessor.tokenizer",
+                    ],
+                },
+            ],
+        },
+        {
             "path": "vgg/",
             "title": "VGG",
             "toc": True,
