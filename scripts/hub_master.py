@@ -2255,7 +2255,6 @@ MODELS_MASTER = {
                     "generate": [
                         "keras_hub.models.Qwen3_5Backbone",
                         "keras_hub.models.Qwen3_5Backbone.from_preset",
-                        "keras_hub.models.Qwen3_5Backbone.enable_lora",
                     ],
                 },
                 {
