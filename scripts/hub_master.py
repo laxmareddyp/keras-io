@@ -2221,6 +2221,66 @@ MODELS_MASTER = {
             ],
         },
         {
+            "path": "qwen3_5/",
+            "title": "Qwen3.5",
+            "toc": True,
+            "children": [
+                {
+                    "path": "qwen3_5_tokenizer",
+                    "title": "Qwen3_5Tokenizer",
+                    "generate": [
+                        "keras_hub.models.Qwen3_5Tokenizer",
+                        "keras_hub.models.Qwen3_5Tokenizer.from_preset",
+                    ],
+                },
+                {
+                    "path": "qwen3_5_image_converter",
+                    "title": "Qwen3_5ImageConverter",
+                    "generate": [
+                        "keras_hub.layers.Qwen3_5ImageConverter",
+                        "keras_hub.layers.Qwen3_5ImageConverter.from_preset",
+                    ],
+                },
+                {
+                    "path": "qwen3_5_video_converter",
+                    "title": "Qwen3_5VideoConverter",
+                    "generate": [
+                        "keras_hub.layers.Qwen3_5VideoConverter",
+                        "keras_hub.layers.Qwen3_5VideoConverter.from_preset",
+                    ],
+                },
+                {
+                    "path": "qwen3_5_backbone",
+                    "title": "Qwen3_5Backbone model",
+                    "generate": [
+                        "keras_hub.models.Qwen3_5Backbone",
+                        "keras_hub.models.Qwen3_5Backbone.from_preset",
+                        "keras_hub.models.Qwen3_5Backbone.enable_lora",
+                    ],
+                },
+                {
+                    "path": "qwen3_5_causal_lm",
+                    "title": "Qwen3_5CausalLM model",
+                    "generate": [
+                        "keras_hub.models.Qwen3_5CausalLM",
+                        "keras_hub.models.Qwen3_5CausalLM.from_preset",
+                        "keras_hub.models.Qwen3_5CausalLM.generate",
+                        "keras_hub.models.Qwen3_5CausalLM.backbone",
+                        "keras_hub.models.Qwen3_5CausalLM.preprocessor",
+                    ],
+                },
+                {
+                    "path": "qwen3_5_causal_lm_preprocessor",
+                    "title": "Qwen3_5CausalLMPreprocessor layer",
+                    "generate": [
+                        "keras_hub.models.Qwen3_5CausalLMPreprocessor",
+                        "keras_hub.models.Qwen3_5CausalLMPreprocessor.from_preset",
+                        "keras_hub.models.Qwen3_5CausalLMPreprocessor.tokenizer",
+                    ],
+                },
+            ],
+        },
+        {
             "path": "qwen3_moe/",
             "title": "Qwen3Moe",
             "toc": True,
